@@ -21,7 +21,7 @@ resource "helm_release" "traefik" {
   name       = "traefik"
   repository = "https://traefik.github.io/charts"
   chart      = "traefik"
-  version    = "37.4.0" # The latest release of this chart is 38.0.1 at the time of this writing; Renovate can raise a PR for this upgrade.
+  version    = "41.5.0" # The latest release of this chart is 38.0.1 at the time of this writing; Renovate can raise a PR for this upgrade.
   values     = []
 }
 
